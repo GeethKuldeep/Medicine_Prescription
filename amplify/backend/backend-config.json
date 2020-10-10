@@ -1,0 +1,22 @@
+{
+	"auth": {
+		"frustrationappc35a922f": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	},
+	"analytics": {
+		"frustrationapp": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"storage": {
+		"s38d82c7c8": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

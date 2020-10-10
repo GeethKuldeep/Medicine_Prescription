@@ -1,0 +1,21 @@
+{
+    "appName": "frustrationapp",
+    "roleName": "pinpointLambdaRole6ed742b2",
+    "cloudformationPolicyName": "cloudformationPolicy6ed742b2",
+    "cloudWatchPolicyName": "cloudWatchPolicy6ed742b2",
+    "pinpointPolicyName": "pinpointPolicy6ed742b2",
+    "authPolicyName": "pinpoint_amplify_6ed742b2",
+    "unauthPolicyName": "pinpoint_amplify_6ed742b2",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
