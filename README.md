@@ -1,4 +1,4 @@
-# frustration_app
+# Medicine_Prescription_app
 
 A new Flutter application.
 
